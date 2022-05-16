@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Colton Acosta Portfolio</title>
+		<title>Engine Controller</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -37,16 +37,29 @@
 									</header>
 
 									<!-- Content -->
-										<h2 id="content">Sample Content</h2>
-										<p>Praesent ac adipiscing ullamcorper semper ut amet ac risus. Lorem sapien ut odio odio nunc. Ac adipiscing nibh porttitor erat risus justo adipiscing adipiscing amet placerat accumsan. Vis. Faucibus odio magna tempus adipiscing a non. In mi primis arcu ut non accumsan vivamus ac blandit adipiscing adipiscing arcu metus praesent turpis eu ac lacinia nunc ac commodo gravida adipiscing eget accumsan ac nunc adipiscing adipiscing lorem ipsum dolor sit amet nullam veroeros adipiscing.Praesent ac adipiscing ullamcorper semper ut amet ac risus. Lorem sapien ut odio odio nunc. Ac adipiscing nibh porttitor erat risus justo adipiscing adipiscing amet placerat accumsan. Vis. Faucibus odio magna tempus adipiscing a non. In mi primis arcu ut non accumsan vivamus ac blandit adipiscing adipiscing arcu metus praesent turpis eu ac lacinia nunc ac commodo gravida adipiscing eget accumsan ac nunc adipiscing adipiscing lorem ipsum dolor sit amet nullam veroeros adipiscing.</p>
+									<span class="image main"><img src="images/projects/Engine-Controller.jpg" alt="" /></span>
+									<span class="image main"><img src="images/projects/Engine-Controller-BOTTOM.png" alt="" /></span>
+										<h2 id="content">Description</h2>
+										<p>The Liquid Engine Controller is the main embedded processor of Sun Devil Rocketry's Liquid Engine. As the brains of the engine, the controller is responsible for executing propellant feed sequences semi-autonomously, logging sensor data, and transitting engine telemetry. The controller is equipped with an STM32 ARM Cortex M7 processor and 4Mb of external flash for data logging. The board includes a micro-SD card jack for easy access to the logged data. The board includes many power sources for flexible use of the controller during testing and normal operation. These include a 12V power jack, a USB Type B connector, and a 2-pin male pin header. The board includes short circuit protect on the main power rail and regulates the multiplexed supply to 5V and 3.3V with a buck converter and linear regulator (LDO) respectively. The board interfaces with a PC through either the USB port or the 8-pin telemetry connector, which allows wireless transciever modules with either a UART or SPI interface to be connected.  The screw terminals on the board connect to the ignition circuitry. An e-match is used to initiate combustion, and two continuity wires are used to provide the controller feedback on the ignition state. The ignition current is routed through an additional screw terminal which serves as a safety/arming switch. The board interfaces with all of the engine sensors, including eight pressure transducers, a thermocouple, and a load cell. The pressure transducer outputs are amplified with a programmable-gain instrumentation amplifier, which allows for up to 256 calibration settings. The thermcouple output is processed using a cold-juntion compensation IC. Additionally, the board includes a reset button and several LEDs for visual indication of power and firmware status.</p>
 										<div class="row">
 											<div class="col-6 col-12-small">
-												<h3>Sem turpis amet semper</h3>
-												<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat commodo eu sed ante lacinia. Sapien a lorem in integer ornare praesent commodo adipiscing arcu in massa commodo lorem accumsan at odio massa ac ac. Semper adipiscing varius montes viverra nibh in adipiscing blandit tempus accumsan.Praesent ac adipiscing ullamcorper semper ut amet ac risus. Lorem sapien ut odio odio nunc. Ac adipiscing nibh porttitor erat risus justo adipiscing adipiscing amet placerat accumsan. Vis. Faucibus odio magna tempus adipiscing a non. In mi primis arcu ut non accumsan vivamus ac blandit adipiscing adipiscing arcu metus praesent turpis eu ac lacinia nunc ac commodo gravida adipiscing eget accumsan ac nunc adipiscing adipiscing lorem ipsum dolor sit amet nullam veroeros adipiscing.Praesent ac adipiscing ullamcorper semper ut amet ac risus. Lorem sapien ut odio odio nunc. Ac adipiscing nibh porttitor erat risus justo adipiscing adipiscing amet placerat accumsan. Vis. Faucibus odio magna tempus adipiscing a non. In mi primis arcu ut non accumsan vivamus ac blandit adipiscing adipiscing arcu metus praesent turpis eu ac lacinia nunc ac commodo gravida adipiscing eget accumsan ac nunc adipiscing adipiscing lorem ipsum dolor sit amet nullam veroeros adipiscing.</p>
+												<h3>Technical Specifications</h3>
+												<p>Microcontroller: STM32H750VBT6</p>
+												<p>Processor: ARM Cortex-M7</p>
+												<p>Maximum Clock Speed: 480 MHz</p>
+												<p>Memmory: 128 kB Flash, 1MB RAM, 4 Mb External Flash, 1 SD Card </p>
+												<p>Maximum Supply Voltage: 30V</p>
+												<p>Maximum Current Draw: 1A </p>
+												<p>Sensors: 8 pressure transducers, 1 load cell, 1 thermocouple </p>
+												<p>Connectivity: USB, UART/SPI Wireless Connector, UART Valve <br> Control Interface</p>
+												
 											</div>
 											<div class="col-6 col-12-small">
-												<h3>Magna odio tempus commodo</h3>
-                                                                                                <img src="images/projects/Engine-Controller-small.jpg" alt="" />
+												<h3>Sources and Documentation</h3>
+												<p> Schematic: <a href="L0002/Engine-Controller-Schematic.pdf" target="_blank">Engine-Controller-Schematic.pdf</a></p>
+												<p> Design Doc: <a href="L0002/Engine-Controller.pdf" target="_blank">Engine-Controller.pdf</a></p>
+												<p> PCB Design Files: <a href="https://github.com/ASU-Sun-Devil-Rocketry/L0002-Liquids-Engine-Controller" target="_blank">GitHub</a></p>
+												<p> 3D Model: <a href="L0002/Engine-Controller_Rev4.0.step" target="_blank">Engine-Controller_Rev4.0.step</a></p>
 											</div>
 										</div>
 									<hr class="major" />
