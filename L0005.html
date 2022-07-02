@@ -40,17 +40,35 @@
 										<span class="image main"><img src="images/projects/Valve-Controller.png" alt="" /></span>
 										<span class="image main"><img src="images/projects/Valve-Controller-BACK.jpg" alt="" /></span>
 										<h2 id="content">Description</h2>
-										<p>Praesent ac adipiscing ullamcorper semper ut amet ac risus. Lorem sapien ut odio odio nunc. Ac adipiscing nibh porttitor erat risus justo adipiscing adipiscing amet placerat accumsan. Vis. Faucibus odio magna tempus adipiscing a non. In mi primis arcu ut non accumsan vivamus ac blandit adipiscing adipiscing arcu metus praesent turpis eu ac lacinia nunc ac commodo gravida adipiscing eget accumsan ac nunc adipiscing adipiscing lorem ipsum dolor sit amet nullam veroeros adipiscing.Praesent ac adipiscing ullamcorper semper ut amet ac risus. Lorem sapien ut odio odio nunc. Ac adipiscing nibh porttitor erat risus justo adipiscing adipiscing amet placerat accumsan. Vis. Faucibus odio magna tempus adipiscing a non. In mi primis arcu ut non accumsan vivamus ac blandit adipiscing adipiscing arcu metus praesent turpis eu ac lacinia nunc ac commodo gravida adipiscing eget accumsan ac nunc adipiscing adipiscing lorem ipsum dolor sit amet nullam veroeros adipiscing.</p>
+										<p> The liquid engine's valve controller contains the processor responsible for managing valve actuation commands issued by the liquid engine controller. The board contains opto-isolated solid state relays for solenoid actuation and a Pulse Width Modulation interface for issuing stepper motor commands which initiate actuation of the liquid engine's main propellant valves. The board is powered from the 5V buck converter on the engine controller, which is also used to power the photogate sensors used for valve position calibration. In order to allow the controller to know the true actuation state of the solenoids in the event of a power failure, the board also contains an AC power supply monitoring circuit which asserts an MCU signal when AC power is available for solenoid actuation.
+  </p>
+
 										<div class="row">
 											<div class="col-6 col-12-small">
-												<h3>Sem turpis amet semper</h3>
-												<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat commodo eu sed ante lacinia. Sapien a lorem in integer ornare praesent commodo adipiscing arcu in massa commodo lorem accumsan at odio massa ac ac. Semper adipiscing varius montes viverra nibh in adipiscing blandit tempus accumsan.Praesent ac adipiscing ullamcorper semper ut amet ac risus. Lorem sapien ut odio odio nunc. Ac adipiscing nibh porttitor erat risus justo adipiscing adipiscing amet placerat accumsan. Vis. Faucibus odio magna tempus adipiscing a non. In mi primis arcu ut non accumsan vivamus ac blandit adipiscing adipiscing arcu metus praesent turpis eu ac lacinia nunc ac commodo gravida adipiscing eget accumsan ac nunc adipiscing adipiscing lorem ipsum dolor sit amet nullam veroeros adipiscing.Praesent ac adipiscing ullamcorper semper ut amet ac risus. Lorem sapien ut odio odio nunc. Ac adipiscing nibh porttitor erat risus justo adipiscing adipiscing amet placerat accumsan. Vis. Faucibus odio magna tempus adipiscing a non. In mi primis arcu ut non accumsan vivamus ac blandit adipiscing adipiscing arcu metus praesent turpis eu ac lacinia nunc ac commodo gravida adipiscing eget accumsan ac nunc adipiscing adipiscing lorem ipsum dolor sit amet nullam veroeros adipiscing.</p>
+												<h3>Technical Specifications</h3>
+												<p>Microcontroller: STM32H750VBT6</p>
+												<p>Processor: ARM Cortex-M7</p>
+												<p>Maximum Clock Speed: 480 MHz</p>
+												<p>Memory: 128 kB Flash, 1MB RAM</p>
+												<p>Maximum Supply Voltage: 30V</p>
+												<p>Maximum Current Draw: 1A </p>
+												<p>Actuators: 6 AC Solenoid Drivers, 2 Stepper Motor PWM <br> interfaces</p>
+												<p>Connectivity: UART </p>
+												<p>Sensors: 2 Photogates, 2 Encoders </p>
+													
+												
 											</div>
 											<div class="col-6 col-12-small">
-												<h3>Magna odio tempus commodo</h3>
-                                                                                                <img src="images/projects/Engine-Controller-small.jpg" alt="" />
+												<h3>Sources and Documentation</h3>
+												<p> Schematic: <a href="L0005/Valve-Controller-Schematic.pdf" target="_blank">Valve-Controller-Schematic.pdf</a></p>
+												<p> Design Doc: <a href="L0005/Valve-Controller.pdf" target="_blank">Valve-Controller.pdf</a></p>
+												<p> PCB Design Files: <a href="https://github.com/SunDevilRocketry/Valve-Controller" target="_blank">GitHub</a></p>
+												<p> Firmware Source Code: <a href="https://github.com/SunDevilRocketry/Valve-Controller-Firmware" target="_blank">GitHub</a></p>
+												<p> Bill of Materials: <a href="L0005/BOM.pdf" target="_blank">BOM.pdf</a>, <a href="L0005/BOM.xlsx">BOM.xlsx</a></p>
+												<p> 3D Model: <a href="L0005/Valve-Controller-Rev2.0.step" target="_blank">Valve-Controller.step</a></p>
 											</div>
 										</div>
+
 									<hr class="major" />
 								</section>
 						</div>
