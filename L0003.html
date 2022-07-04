@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Colton Acosta Portfolio</title>
+		<title>Wheatstone Bridge</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -33,15 +33,15 @@
 							<!-- Content -->
 								<section>
 									<header class="main">
-										<h1>Instrumentation Amplifier</h1>
+										<h1>Wheatstone Bridge</h1>
 									</header>
 
-									<span class="image main"><img src="L0001/Instrumentation-Amplifier.png" alt="" /></span>
+									<span class="image main"><img src="L0003/Wheatstone-Bridge.png" alt="" /></span>
 										<h2 id="content">Description</h2>
-										<p>The instrumentation amplifier IC uses an adjustable gain differential amplifier with buffered inputs to amplify the readings from an analog sensor using a wheatstone bridge such as a load cell or pressure transducer. The amplifier supply voltage was chosen to match that of the pressure transducers it is intended to be used with. The instrumentation amplifier is currently being used for testing purposes, such as pressure transducer calibration and orifice characterization. The amplifier board was integrated into the <a href="L0002.html">engine controller</a> in the fourth revision.</p>
+										<p>The wheatsone bridge PCB emulates the output of a pressure transducer using a wheatstone bridge resistor configuration. The output was tuned to 0-100mV by choosing the correct resistances to match the output of the pressure transducers used in the liquid engine.The output is adjustable using the potentiometer, which allows for easy simulation of varying pressure transducer readings. The board has two pressure transducers connectors to allow the output to be connected directly to the <a href="L0002.html">engine controller</a> for testing. The pin header and 12V barrel jack allow the board to also be used independently of the engine controller, which has previously been used to test the <a href="L0001.html">instrumentation amplifier</a>.</p>
 										<h3>Sources and Documentation</h3>
-										<p>PCB Design Files: <a href="https://github.com/SunDevilRocketry/Instrumentation-Amplifier" target="_blank">GitHub</a></p>
-										<p>3D Model: <a href="L0001/Instrumentation-Amplifier.step" target="_blank">Instrumentation-Amplifier.step</a></p>
+										<p>PCB Design Files: <a href="https://github.com/SunDevilRocketry/Wheatstone-Bridge" target="_blank">GitHub</a></p>
+										<p>3D Model: <a href="L0003/Wheatstone-Bridge.step" target="_blank">Wheatsone-Bridge.step</a></p>
 									<hr class="major" />
 								</section>
 						</div>
