@@ -39,7 +39,9 @@
 									<!-- Content -->
 										<span class="image main"><img src="L0005/L0005-Rev3_1-TOP.png" alt="" /></span>
 										<span class="image main"><img src="L0005/L0005-Rev3_1-BOTTOM.png" alt="" /></span>
-										<h2 id="content">Description</h2>
+										<header class="major" id="description">
+											<h2 id="content">Description</h2>
+										</header>
 										<p> The liquid engine's valve controller contains the processor responsible for managing valve actuation commands issued by the 
 											liquid engine controller. The board contains opto-isolated solid state relays for solenoid actuation and a Pulse Width 
 											Modulation interface for issuing stepper motor commands which initiate actuation of the liquid engine's main propellant valves. 
@@ -72,6 +74,67 @@
 												<p> Firmware Source Code: <a href="https://github.com/SunDevilRocketry/Valve-Controller-Firmware" target="_blank">GitHub</a></p>
 												<p> Bill of Materials: <a href="L0005/BOM.pdf" target="_blank">BOM.pdf</a>, <a href="L0005/BOM.xlsx">BOM.xlsx</a></p>
 												<p> 3D Model: <a href="L0005/Valve-Controller-Rev3_1.step" target="_blank">Valve-Controller.step</a></p>
+											</div>
+										</div>
+
+									<!-- Previous Versions Section -->
+									<header class="major" id="version history">
+										<h2>Version History</h2>
+									</header>
+										<!-- Version 3.1 -->
+										<div class="row" style="margin-bottom:2cm">
+											<div class="col-6 col-12-small">
+												<h3>Version 3.1</h3>
+												<img src="L0005/L0005-Rev3_1-TOP.png" alt="" width="500"/>
+											</div>
+											<div class="col-6 col-12-small">
+												<p>Updates:</p>
+												<ul>
+													<li>Fixed Photogate connector pinouts to allow straight wiring from photogate connector to valve controller connector</li>
+												</ul>
+											</div>
+										</div>
+										<!-- Version 3.0 -->
+										<div class="row" style="margin-bottom:2cm">
+											<div class="col-6 col-12-small">
+												<h3>Version 3.0</h3>
+												<img src="L0005/L0005-Rev3_1-TOP.png" alt="" width="500"/>
+											</div>
+											<div class="col-6 col-12-small">
+												<p>Updates:</p>
+												<ul>
+													<li>Used in hotfire tests, 4/27/2023 and 5/12/2023</li>
+													<li>Added USB interface</li>
+													<li>Changed pulse interface to 5V open drain logic</li>
+												</ul>
+											</div>
+										</div>
+										<!-- Version 2.0 -->
+										<div class="row" style="margin-bottom:2cm">
+											<div class="col-6 col-12-small">
+												<h3>Version 2.0</h3>
+												<img src="L0005/L0005-Rev2_0-TOP.png" alt="" width="500"/>
+											</div>
+											<div class="col-6 col-12-small">
+												<p>Updates:</p>
+												<ul>
+													<li>Switched microcontroller from NXP M4 to STM32 M7</li>
+												</ul>
+											</div>
+										</div>
+										<!-- Version 1.0 -->
+										<div class="row" style="margin-bottom:2cm">
+											<div class="col-6 col-12-small">
+												<h3>Version 1.0</h3>
+												<img src="L0005/L0005-Rev1_0-TOP.jpg" alt="" width="500"/>
+											</div>
+											<div class="col-6 col-12-small">
+												<p>Updates:</p>
+												<ul>
+													<li>Initial version</li>
+													<li>Implemented solenoid solid state relay circuits</li>
+													<li>Implemented servo motor pulse interface</li>
+												</ul>
 											</div>
 										</div>
 
