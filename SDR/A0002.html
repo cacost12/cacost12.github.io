@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Engine Controller</title>
+		<title>Flight Computer</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="../assets/css/main.css" />
@@ -31,58 +31,117 @@
 								</header>
 
 							<!-- Content -->
-								<section>
-									<header class="main">
-										<h1>Flight Computer</h1>
-									</header>
+							<section>
+								<!-- Description Section -->
+								<header class="main">
+									<h1>Flight Computer</h1>
+								</header>
+								<span class="image main"><img src="A0002/A0002-Rev2_0-TOP.png" alt="" /></span>
+								<span class="image main"><img src="A0002/A0002-Rev2_0-BOTTOM.png" alt="" /></span>
+								<header class="major" id="description">
+									<h2>Description</h2>
+								</header>
+								<p>The flight computer is Sun Devil Rocketry's first ever in-house designed and manufactured high-power rocketry altimeter. The 
+									flight computer project aims to serve as a drop-in replacement for the commercially produced altimeters currently used in Sun 
+									Devil Rocketry rockets, while also supporting more advanced rocketry projects by including extra sensors and peripheral interfaces. 
+									The board supports dual-deployment parachute ejection through the use of ematch screw terminals, a barometric pressure sensor, 
+									a buzzer, an ARM Cortex-M7 microcontroller, and 4 Mb of external flash for logging flight data. The computer also includes a 
+									USB port and a micro SD card for easy access to flight data, so a seperate data collection kit is not required. To support 
+									more advanced projects, the computer contains a LoRa wireless module, a GPS module, a 9-axis IMU, and four 3-connector PWM servo 
+									drivers. Design of the flight computer was optimized for a minimum form factor to allow the computer to be used in a variety of 
+									differently sized rockets. </p>
+								<div class="row">
+									<div class="col-6 col-12-small">
+										<h3>Technical Specifications</h3>
+										<p>Dimensions: 1.8"x3.8"</p>
+										<p>Microcontroller: STM32H750VBT6</p>
+										<p>Processor: ARM Cortex-M7</p>
+										<p>Maximum Clock Speed: 480 MHz</p>
+										<p>Memory: 128 kB Flash, 1MB RAM, 4 Mb External Flash, 1 SD Card </p>
+										<p>Supply Voltage: 3.6-16V</p>
+										<p>Maximum Current Draw: 1A </p>
+										<p>Sensors: Barometric Pressure Sensor, 9-axis IMU</p>
+										<p>Connectivity: USB, LoRa, GPS</p>
+										<p>Control: 4 PWM Servo-motor drivers</p>
+										
+									</div>
+									<div class="col-6 col-12-small">
+										<h3>Sources and Documentation</h3>
+										<p> Schematic: <a href="A0002/Flight-Computer-Schematic.pdf" target="_blank">Flight-Computer-Schematic.pdf</a></p>
+										<p> Design Doc: <a href="A0002/Flight-Computer.pdf" target="_blank">Flight-Computer.pdf</a></p>
+										<p> PCB Design Files: <a href="https://github.com/SunDevilRocketry/Flight-Computer" target="_blank">GitHub</a></p>
+										<p> Firmware Source Code: <a href="https://github.com/SunDevilRocketry/Flight-Computer-Firmware" target="_blank">GitHub</a></p>
+										<p> Bill of Materials: <a href="A0002/BOM.pdf" target="_blank">BOM.pdf</a>, <a href="A0002/BOM.xlsx">BOM.xlsx</a></p>
+										<p> 3D Model: <a href="A0002/Flight-Computer.step" target="_blank">Flight-Computer.step</a></p>
+									</div>
+								</div>
+							</section>
 
-									<!-- Content -->
-									<span class="image main"><img src="A0002/A0002-Rev2_0-TOP.png" alt="" /></span>
-									<span class="image main"><img src="A0002/A0002-Rev2_0-BOTTOM.png" alt="" /></span>
-
-									<!-- Description Section -->
-									<section>
-										<header class="major" id="description">
-											<h2>Description</h2>
-										</header>
-										<p>The flight computer is Sun Devil Rocketry's first ever in-house designed and manufactured high-power rocketry altimeter. The 
-											flight computer project aims to serve as a drop-in replacement for the commercially produced altimeters currently used in Sun 
-											Devil Rocketry rockets, while also supporting more advanced rocketry projects by including extra sensors and peripheral interfaces. 
-											The board supports dual-deployment parachute ejection through the use of ematch screw terminals, a barometric pressure sensor, 
-											a buzzer, an ARM Cortex-M7 microcontroller, and 4 Mb of external flash for logging flight data. The computer also includes a 
-											USB port and a micro SD card for easy access to flight data, so a seperate data collection kit is not required. To support 
-											more advanced projects, the computer contains a LoRa wireless module, a GPS module, a 9-axis IMU, and four 3-connector PWM servo 
-											drivers. Design of the flight computer was optimized for a minimum form factor to allow the computer to be used in a variety of 
-											differently sized rockets. </p>
-										<div class="row">
-											<div class="col-6 col-12-small">
-												<h3>Technical Specifications</h3>
-												<p>Dimensions: 1.8"x3.8"</p>
-												<p>Microcontroller: STM32H750VBT6</p>
-												<p>Processor: ARM Cortex-M7</p>
-												<p>Maximum Clock Speed: 480 MHz</p>
-												<p>Memory: 128 kB Flash, 1MB RAM, 4 Mb External Flash, 1 SD Card </p>
-												<p>Supply Voltage: 3.6-16V</p>
-												<p>Maximum Current Draw: 1A </p>
-												<p>Sensors: Barometric Pressure Sensor, 9-axis IMU</p>
-												<p>Connectivity: USB, LoRa, GPS</p>
-												<p>Control: 4 PWM Servo-motor drivers</p>
-												
-											</div>
-											<div class="col-6 col-12-small">
-												<h3>Sources and Documentation</h3>
-												<p> Schematic: <a href="A0002/Flight-Computer-Schematic.pdf" target="_blank">Flight-Computer-Schematic.pdf</a></p>
-												<p> Design Doc: <a href="A0002/Flight-Computer.pdf" target="_blank">Flight-Computer.pdf</a></p>
-												<p> PCB Design Files: <a href="https://github.com/SunDevilRocketry/Flight-Computer" target="_blank">GitHub</a></p>
-												<p> Firmware Source Code: <a href="https://github.com/SunDevilRocketry/Flight-Computer-Firmware" target="_blank">GitHub</a></p>
-												<p> Bill of Materials: <a href="A0002/BOM.pdf" target="_blank">BOM.pdf</a>, <a href="A0002/BOM.xlsx">BOM.xlsx</a></p>
-												<p> 3D Model: <a href="A0002/Flight-Computer.step" target="_blank">Flight-Computer.step</a></p>
-											</div>
+							<!-- Media Section -->
+							<section>
+								<header class="major" id="media">
+									<h2>Media</h2>
+								</header>
+									<div class="row" style="margin-bottom:2cm">
+										<div class="col-6 col-12-small">
+											<center><img src="A0002/Flight-Computer-Ebay-Rev2.jpg" alt="" width="500" /></center>
 										</div>
-									</section>
+										<div class="col-6 col-12-small">
+											<center><img src="A0002/Flight-Computer-Ebay-Rev1.jpg" alt="" width="500" /></center>
+										</div>
+									</div>
+									<div class="row" style="margin-bottom:2cm">
+										<div class="col-6 col-12-small">
+											<center><img src="A0002/Flight-Computer-ON.jpg" alt="" width="600" /></center>
+										</div>
+										<div class="col-6 col-12-small">
+											<center><img src="A0002/Colton_checking_avionics.jpg" alt="" width="600" /></center>
+										</div>
+									</div>
+							</section>
 
-									<hr class="major" />
-								</section>
+							<!-- Previous Versions Section -->
+							<section>
+								<header class="major" id="version history">
+									<h2>Version History</h2>
+								</header>
+									<!-- Version 2.0 -->
+									<div class="row" style="margin-bottom:2cm">
+										<div class="col-6 col-12-small">
+											<h3>Version 2.0</h3>
+											<img src="A0002/A0002-Rev2_0-TOP.png" alt="" width="500"/>
+										</div>
+										<div class="col-6 col-12-small">
+											<p>Updates:</p>
+											<ul>
+												<li>Used both in data logging and dual-deploy flight tests</li>
+												<li>Updated IMU from MPU-9250 to BMI323</li>
+												<li>Added external magnetometer</li>
+												<li>Fixed telemetry pinouts</li>
+												<li>Added jumper to disable reset button for flight tests</li>
+												<li>Reduced form factor of screw terminals, mounting holes, and board overall</li>
+											</ul>
+										</div>
+									</div>
+									<!-- Version 1.0 -->
+									<div class="row" style="margin-bottom:2cm">
+										<div class="col-6 col-12-small">
+											<h3>Version 1.0</h3>
+											<img src="A0002/A0002-Rev1_0-TOP.png" alt="" width="500"/>
+										</div>
+										<div class="col-6 col-12-small">
+											<p>Updates:</p>
+											<ul>
+												<li>Used for initial data collection for event detection parameter tuning</li>
+												<li>Initial version</li>
+												<li>Implemented baro sensor, IMU, GPS, telemetry, and buzzer</li>
+												<li>Reduced form factor of USB jack and SWD programmer connector</li>
+											</ul>
+										</div>
+									</div>
+							</section>
+
+							<hr class="major" />
 						</div>
 					</div>
 
@@ -106,7 +165,7 @@
 										<li><a href="../index.html">About Me</a></li>
 										<li><a href="../construction.html">Personal Projects</a></li>
 										<li><a href="../sun_devil_rocketry.html">Sun Devil Rocketry</a></li>
-										<li><a href="../index.html#media">Media</a></li>
+										<li><a href="#media">Media</a></li>
 										<li><a href="../index.html#contactme">Contact</a></li>
 									</ul>
 								</nav>
