@@ -1,0 +1,160 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Ground Station</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+
+							<!-- Header -->
+								<header id="header">
+									<a href="../index.html" class="logo"><strong>Colton Acosta</strong></a>
+									<ul class="icons">
+										<li><a href="#" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+										<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+									</ul>
+								</header>
+
+							<!-- Content -->
+							<section>
+								<!-- Description Section -->
+								<header class="main">
+									<h1>Ground Station Unit</h1>
+								</header>
+								<span class="image main"><img src="A0005/A0005-Rev2_0-TOP.png" alt="" /></span>
+								<span class="image main"><img src="A0005/A0005-Rev2_0-BOTTOM.png" alt="" /></span>
+								<header class="major" id="description">
+									<h2>Description</h2>
+								</header>
+								<p>									
+									The ground station unit functions as a serial bridge between a PC running Sun Devil Rocketry software and Sun Devil Rocketry custom
+									hardware such as the <a href="L0002.html">liquid engine controller</a> or <a href="A0002.html">flight computer</a>. The unit communicates 
+									with the PC over USB, and to the custom hardware using either ethernet, XBee wireless, or LoRa wireless. This allows for remote communication
+									with the hardware in order to allow for in-flight telemetry or remote monitoring of liquid engine sensors. The unit is equipped with an ARM 
+									Cortex-M7 microcontroller for input-output processing.
+								</p>
+								<div class="row">
+									<div class="col-6 col-12-small">
+										<h3>Technical Specifications</h3>
+										<p>Dimensions: 1.7"x3.7"</p>
+										<p>Microcontroller: STM32H750VBT6</p>
+										<p>Processor: ARM Cortex-M7</p>
+										<p>Maximum Clock Speed: 480 MHz</p>
+										<p>Memory: 128 kB Flash, 1MB RAM </p>
+										<p>Supply Voltage: 5V (USB)</p>
+										<p>Maximum Current Draw: 1A </p>
+										<p>Connectivity: USB, RS485/Ethernet, XBee, LoRa</p>
+										
+									</div>
+									<div class="col-6 col-12-small">
+										<h3>Sources and Documentation</h3>
+										<p> Schematic: <a href="A0005/Ground-Station-Schematic.pdf" target="_blank">Ground-Station-Schematic.pdf</a></p>
+										<p> Design Doc: <a href="A0002/Flight-Computer.pdf" target="_blank">Flight-Computer.pdf</a></p>
+										<p> PCB Design Files: <a href="https://github.com/SunDevilRocketry/Ground-Station-Telemetry" target="_blank">GitHub</a></p>
+										<p> Firmware Source Code: <a href="https://github.com/SunDevilRocketry/Ground-Station-Firmware" target="_blank">GitHub</a></p>
+										<p> Bill of Materials: <a href="A0005/BOM.pdf" target="_blank">BOM.pdf</a>, <a href="A0005/BOM.xlsx">BOM.xlsx</a></p>
+										<p> 3D Model: <a href="A0005/Ground-Station-Telemetry-Rev2.step" target="_blank">Ground-Station.step</a></p>
+									</div>
+								</div>
+							</section>
+
+							<!-- Previous Versions Section -->
+							<section>
+								<header class="major" id="version history">
+									<h2>Version History</h2>
+								</header>
+									<!-- Version 2.0 -->
+									<div class="row" style="margin-bottom:2cm">
+										<div class="col-6 col-12-small">
+											<h3>Version 2.0</h3>
+											<img src="A0005/A0005-Rev2_0-TOP.png" alt="" width="500"/>
+										</div>
+										<div class="col-6 col-12-small">
+											<p>Updates:</p>
+											<ul>
+												<li>Used in 4/27/2023 and 5/12/2023 Liquids static hotfire attempts</li>
+												<li>Added RS485/Ethernet interface for liquids hotfire</li>
+											</ul>
+										</div>
+									</div>
+									<!-- Version 1.0 -->
+									<div class="row" style="margin-bottom:2cm">
+										<div class="col-6 col-12-small">
+											<h3>Version 1.0</h3>
+											<img src="A0005/A0005-Rev1_0-TOP.png" alt="" width="500"/>
+										</div>
+										<div class="col-6 col-12-small">
+											<p>Updates:</p>
+											<ul>
+												<li>Initial version</li>
+												<li>Added XBee and LoRa modules</li>
+											</ul>
+										</div>
+									</div>
+							</section>
+
+							<hr class="major" />
+						</div>
+					</div>
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+
+							<!-- Search -->
+								<section id="search" class="alt">
+									<form method="post" action="#">
+										<input type="text" name="query" id="query" placeholder="Search" />
+									</form>
+								</section>
+
+							<!-- Menu -->
+								<nav id="menu">
+									<header class="major">
+										<h2>Menu</h2>
+									</header>
+									<ul>
+										<li><a href="../index.html">About Me</a></li>
+										<li><a href="../index.html#projects">Personal Projects</a></li>
+										<li><a href="../sun_devil_rocketry.html">Sun Devil Rocketry</a></li>
+										<li><a href="#media">Media</a></li>
+										<li><a href="../index.html#contactme">Contact</a></li>
+									</ul>
+								</nav>
+
+
+
+							<!-- Footer -->
+								<footer id="footer">
+									<p class="copyright">&copy; Untitled. All rights reserved. Demo Images: <a href="https://unsplash.com">Unsplash</a>. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+								</footer>
+
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="../assets/js/jquery.min.js"></script>
+			<script src="../assets/js/browser.min.js"></script>
+			<script src="../assets/js/breakpoints.min.js"></script>
+			<script src="../assets/js/util.js"></script>
+			<script src="../assets/js/main.js"></script>
+
+	</body>
+</html>
